@@ -1,0 +1,72 @@
+[
+  {
+    "description": "   As an user\n   I should be able search for content in Angular home page\n   In order to find information about a specific topic",
+    "keyword": "Feature",
+    "name": "Search something in Angular home page",
+    "line": 2,
+    "id": "search-something-in-angular-home-page",
+    "tags": [],
+    "uri": "integration/features/angular.search.feature",
+    "elements": [
+      {
+        "id": "search-something-in-angular-home-page;see-topics-about-promise-using-search-filter-in-angular-home-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "See topics about Promise using search filter in Angular home page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I go to \"https://angular.io/\"",
+            "match": {
+              "location": "integration/features/steps/common.step.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 994000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I search for \"Promise\" as filter",
+            "match": {
+              "location": "integration/features/steps/home.step.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1719000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I expect to see topics about \"Promise\"",
+            "match": {
+              "location": "integration/features/steps/search.result.step.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1021000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

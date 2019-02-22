@@ -63,6 +63,9 @@
           "configurations": {
             "production": {
               "browserTarget": "dojo-protractor:build:production"
+            },
+            "integration": {
+              "browserTarget": "dojo-protractor:build:integration"
             }
           }
         },
@@ -127,6 +130,19 @@
             "exclude": [
               "**/node_modules/**"
             ]
+          }
+        }
+      }
+    },
+    "dojo-protractor-integration": {
+      "root": "integration/",
+      "projectType": "application",
+      "architect": {
+        "integration": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "integration/protractor.conf.js",
+            "devServerTarget": "dojo-protractor:serve"
           }
         }
       }
