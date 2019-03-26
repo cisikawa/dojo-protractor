@@ -19,40 +19,126 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 9,
+            "line": 8,
             "name": "I go to \"https://angular.io/\"",
             "match": {
               "location": "integration/features/steps/common.step.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 994000000
+              "duration": 2557000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 10,
+            "line": 9,
             "name": "I search for \"Promise\" as filter",
             "match": {
-              "location": "integration/features/steps/home.step.ts:15"
+              "location": "integration/features/steps/home.step.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 1719000000
+              "duration": 863000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 11,
-            "name": "I expect to see topics about \"Promise\"",
+            "line": 10,
+            "name": "I expect to see topics about \"HammerLoader\"",
             "match": {
-              "location": "integration/features/steps/search.result.step.ts:12"
+              "location": "integration/features/steps/filter.result.step.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 1021000000
+              "duration": 613000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-something-in-angular-home-page;see-topics-about-protractor-using-search-filter-in-angular-home-page-and-read-an-article",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "See topics about Protractor using search filter in Angular home page and read an Article",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I go to \"https://angular.io/\"",
+            "match": {
+              "location": "integration/features/steps/common.step.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 754000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I search for \"Protractor\" as filter",
+            "match": {
+              "location": "integration/features/steps/home.step.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1981000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I expect to see topics about \"Testability\"",
+            "match": {
+              "location": "integration/features/steps/filter.result.step.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 605000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click at \"Testability\" filter item",
+            "match": {
+              "location": "integration/features/steps/filter.result.step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I expect to be at testability screen",
+            "match": {
+              "location": "integration/features/steps/testability.step.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1115000000
             }
           },
           {

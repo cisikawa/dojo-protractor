@@ -76,32 +76,5 @@ export class MockServer {
 
     this.serverStarted = this.server.listen(3000);
 
-
-    // this.server.post('/order/lock', (req, res) => {
-
-    //   this.bodyList['post-lock'] = req.body;
-
-    //   const body = req.body.pop();
-
-    //   if (!this.lockSuccess) {
-    //     res.sendStatus(422);
-    //   } else if (body.orderId == '1117147956' &&
-    //     body.enterpriseMarketId == '55') {
-    //     res.jsonp(lockPostDepot);
-    //   } else if (body.orderId == '1108550993' &&
-    //     body.enterpriseMarketId == '73') {
-    //     res.jsonp(lockPostRob);
-    //   } else if (body.orderId == '1108526252' &&
-    //     body.enterpriseMarketId == '73') {
-    //     res.jsonp(lockPostGeico);
-    //   } else {
-    //     res.sendStatus(500);
-    //   }
-    // });
-
-    // this.server.post('/order/bulk-order-update', (req, res) => {
-    //   this.bodyList['bulk-order-update'] = req.body;
-    //   res.jsonp(bulkCangeUpdate);
-    // });
   }
 }

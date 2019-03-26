@@ -32,7 +32,7 @@ export class PageUtils {
     await browser.driver.wait(() => false);
   }
 
-  protected async stopForALittleLess() {
+  protected async waitForMinTime() {
     await browser.driver.sleep(this.defaultBrowserWaitMinTime);
   }
 

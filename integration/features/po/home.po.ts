@@ -17,6 +17,7 @@ export class HomePage extends CommonPage {
         await element(filter).clear().then(() => {
           element(filter).sendKeys(value);
         });
+        super.freeze();
     }
 
 }
