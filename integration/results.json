@@ -3,7 +3,7 @@
     "description": "   As an user\n   I should be able search for content in Angular home page\n   In order to find information about a specific topic",
     "keyword": "Feature",
     "name": "Search something in Angular home page",
-    "line": 2,
+    "line": 3,
     "id": "search-something-in-angular-home-page",
     "tags": [],
     "uri": "integration/features/angular.search.feature",
@@ -11,7 +11,7 @@
       {
         "id": "search-something-in-angular-home-page;see-topics-about-promise-using-search-filter-in-angular-home-page",
         "keyword": "Scenario",
-        "line": 7,
+        "line": 8,
         "name": "See topics about Promise using search filter in Angular home page",
         "tags": [],
         "type": "scenario",
@@ -19,40 +19,40 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 8,
+            "line": 9,
             "name": "I go to \"https://angular.io/\"",
             "match": {
               "location": "integration/features/steps/common.step.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 2557000000
+              "duration": 977000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 9,
+            "line": 10,
             "name": "I search for \"Promise\" as filter",
             "match": {
-              "location": "integration/features/steps/home.step.ts:11"
+              "location": "integration/features/steps/home.step.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 863000000
+              "duration": 1783000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
+            "line": 11,
             "name": "I expect to see topics about \"HammerLoader\"",
             "match": {
               "location": "integration/features/steps/filter.result.step.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 613000000
+              "duration": 625000000
             }
           },
           {
@@ -71,7 +71,7 @@
       {
         "id": "search-something-in-angular-home-page;see-topics-about-protractor-using-search-filter-in-angular-home-page-and-read-an-article",
         "keyword": "Scenario",
-        "line": 12,
+        "line": 13,
         "name": "See topics about Protractor using search filter in Angular home page and read an Article",
         "tags": [],
         "type": "scenario",
@@ -79,66 +79,66 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 13,
+            "line": 14,
             "name": "I go to \"https://angular.io/\"",
             "match": {
               "location": "integration/features/steps/common.step.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 754000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
-            "name": "I search for \"Protractor\" as filter",
-            "match": {
-              "location": "integration/features/steps/home.step.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1981000000
+              "duration": 1014000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 15,
-            "name": "I expect to see topics about \"Testability\"",
+            "name": "I search for \"Protractor\" as filter",
             "match": {
-              "location": "integration/features/steps/filter.result.step.ts:12"
+              "location": "integration/features/steps/home.step.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 605000000
+              "duration": 1940000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 16,
+            "name": "I expect to see topics about \"Testability\"",
+            "match": {
+              "location": "integration/features/steps/filter.result.step.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 715000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
             "name": "I click at \"Testability\" filter item",
             "match": {
               "location": "integration/features/steps/filter.result.step.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 239000000
+              "duration": 222000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 17,
+            "line": 18,
             "name": "I expect to be at testability screen",
             "match": {
               "location": "integration/features/steps/testability.step.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 1115000000
+              "duration": 977000000
             }
           },
           {

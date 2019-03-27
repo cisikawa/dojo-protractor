@@ -10,14 +10,16 @@ export class HomePage extends CommonPage {
         this.CSS_INPUT_FILTER = 'input[placeholder="Search"]';
     }
 
-    async setFilter(value: string) {
+    async waitForFilterAppears() {
         const filter = by.css(this.CSS_INPUT_FILTER);
         await browser.wait(ExpectedConditions.visibilityOf(element(filter)),
             super.getDefaultComponentWaitTime());
-        await element(filter).clear().then(() => {
-          element(filter).sendKeys(value);
-        });
-        super.freeze();
+    }
+
+    async setFilter(value: string) {
+        const filter = by.css(this.CSS_INPUT_FILTER);
+        await element(filter).clear();
+        await element(filter).sendKeys(value);
     }
 
 }
